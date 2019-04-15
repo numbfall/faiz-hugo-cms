@@ -1,0 +1,11 @@
+baseURL = "https://faizeaam.org"
+languageCode = "en-us"
+googleAnalytics = "UA-114282893-1"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+enableRobotsTXT = true
+title = "Faiz-e-Aam Welfare Trust"
+
+[params]
+    logo = "https://faizeaam.org/img/apple-touch-icon.png"
+    image = "https://faizeaam.org/img/og-image.jpg"
+    author = "Ayesha Iqbal"

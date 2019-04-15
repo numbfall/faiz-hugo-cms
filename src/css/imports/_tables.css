@@ -1,0 +1,28 @@
+table
+{
+  border-radius: var(--border-radius);
+  overflow: scroll;
+  width: 100%;
+}
+
+td, th {
+  padding: var(--spacing-medium);
+}
+
+th:not(:first-child), td:not(:first-child) {
+  text-align: left;
+}
+
+th {
+  color: var(--grey-3);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+tr th {
+  text-align: center;
+}
+
+tbody tr:nth-child(even) {
+  background-color: var(--grey-1);
+}

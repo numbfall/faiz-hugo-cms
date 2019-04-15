@@ -1,0 +1,27 @@
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "NewsArticle",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "{{ .Site.BaseURL }}"
+        },
+        "headline": "{{ .Title }}",
+        "image": [ "{{ if isset .Params "image" }}{{ .Params.image | absURL }}{{ else }}{{ .Site.Params.image }}{{ end }}" ],
+        "datePublished": "{{.Date}}",
+        "dateModified": "{{.Date}}",
+        "author": {
+            "@type": "Person",
+            "name": "{{ .Site.Params.Author }}"
+         },
+         "publisher": {
+          "@type": "Organization",
+          "name": "{{ .Site.Title }}",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "{{ .Site.Params.Logo }}"
+          }
+        },
+        "description": "{{ .Params.description }}"
+      }
+</script>

@@ -1,0 +1,60 @@
+<footer class="bg-black ph3 pv4 white">
+
+	<div class="mw7 center pt3">
+
+		<div class="measure-narrow center mb4">
+
+			<svg height="60px" class="primary db w4 center mb4">
+				<use xlink:href="#main-logo"></use>
+			</svg>
+			<p class="f3 lh-title light-gray b tc mb2">Newsletter subscribe</p>
+			<p>Get latest news from us in your inbox. Be the first to learn about new projects.</p>
+
+			{{ partial "newsletter-form" . }}
+
+		</div>
+
+		<div class="flex-ns justify-between">
+
+			<div>
+				<h3 class="f4 lh-title mb1 primary">Faiz-e-Aam</h3>
+				<ul class="mb3">
+					<li><a href="/" class="link">Home</a></li>
+					<li><a href="/projects" class="link">Our projects</a></li>
+					<li><a href="/values" class="link">About</a></li>
+					<li><a href="/news" class="link">News</a></li>
+					<li><a href="/contact" class="link">Contact</a></li>
+				</ul>
+			</div>
+
+			<div>
+				<h3 class="f4 lh-title mb1 primary">Find out more</h3>
+				<ul class="mb3">
+					<li><a href="/donate/" class="link">How to donate</a></li>
+					<li><a href="/pdf/faizeaam-taxpayer-certificate.pdf" target="_blank" class="link">Taxpayer registration certificate</a></li>
+					<li><a href="/contact" class="link">Schedule and appointment</a></li>
+				</ul>
+			</div>
+
+			<div>
+				<h3 class="f4 lh-title mb2 primary">Social media</h3>
+				<ul class="mhn2">
+					{{ partial "social-icon" (dict "link" "https://www.facebook.com/Mount-HIRA-Street-Children-School-372062566191109/" "svg" "icons-facebook") }}
+					<!-- {{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter") }}
+					{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram") }}
+					{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo") }} -->
+				</ul>
+			</div>
+
+		</div>
+	</div>
+
+</footer>
+
+{{ partial "svg" . }}
+
+<script src="/app.js"></script>
+
+</body>
+
+</html>

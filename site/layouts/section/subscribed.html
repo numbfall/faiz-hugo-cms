@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
+
+
+<div class="ph3">
+    <div class="flex-ns center mw7 pv4 ph3">
+<div class="w-40-ns ph3">
+{{ .Content }}
+</div>
+<div class="w-60-ns">
+    <img src="{{ .Params.imageEnd }}" alt="Image part"/>
+</div>
+    </div>
+
+<div class="center mw7 pv4 ph3">
+    <a href="/" class="ph3">← Return home</a>
+</div>
+</div>
+
+{{ partial "search-gallery" . }}
+
+{{ end }}

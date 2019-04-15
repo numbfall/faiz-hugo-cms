@@ -1,0 +1,31 @@
+<head>
+	{{ template "_internal/google_analytics.html" . }}
+	<title>{{ .Title }} | Faiz-e-Aam</title>
+
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	{{ hugo.Generator }}
+
+	<link rel="canonical" href="{{ .Permalink }}">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700|Pacifico"> 
+	<link rel="stylesheet" href="/css/main.css">
+
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/manifest.json">
+	<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#c51162">
+	<meta name="theme-color" content="#c51162">
+
+	<!-- Open Graph -->
+	<meta property="og:type" content="business.business">
+	<meta property="og:title" content="Faiz-e-Aam | Welfare Trust">
+	<meta property="og:url" content="{{ .Site.BaseURL }}">
+	<meta property="og:image" content="{{ .Site.Params.logo }}">
+
+	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>

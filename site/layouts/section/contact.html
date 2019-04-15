@@ -1,0 +1,28 @@
+{{ define "main" }}
+
+<div class="ph3">
+	<div class="center mw6 pv3">
+
+		<svg height="60px" class="primary db w4 center pv4">
+			<use xlink:href="#main-logo"></use>
+		</svg>
+
+		{{ .Content }}
+
+		<div class="flex-ns mb3">
+	        	{{ range .Params.contact_entries }}
+				<div class="w-50">
+					<h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
+					<p>{{ .phone }} <br>{{ .email }}</p>
+				</div>
+			{{ end }}
+		</div>
+
+		{{ partial "contact-form" . }}
+
+	</div>
+</div>
+
+{{ partial "search-gallery" . }}
+
+{{ end }}

@@ -1,0 +1,53 @@
+::selection {
+  background-color: var(--highlight);
+}
+
+/* Used in the navbar */
+.divider-grey {
+  box-shadow: inset 0 -4px 0 var(--grey-1);
+  /* Link hover states */
+  & ul.primary-nav a {
+    transition: var(--hover-transition);
+  }
+  & ul.primary-nav a:hover, & ul.primary-nav a:focus {
+    box-shadow: inset 0 -4px 0 var(--primary);
+  }
+}
+
+footer {
+  margin-bottom: -60px;
+  @media (--breakpoint-large) {
+    margin-bottom: -77px;
+  }
+}
+
+body {
+  margin-top: 60px;
+  @media (--breakpoint-large) {
+    margin-top: 77px;
+  }
+}
+
+#header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  & #logo {
+    transition: all .15s ease-in;
+  }
+}
+
+#header.scrolled {
+  box-shadow: 0 3px 3px 0 rgba(0,0,0,0.2);
+  & #prim-nav li a {
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+  }
+
+  & #logo {
+    @media (--breakpoint-large) {
+      transform: scale(0.9);
+    }
+  }
+
+}

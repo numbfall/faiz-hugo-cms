@@ -1,0 +1,35 @@
+{{ define "main" }} 
+
+{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }} 
+
+<div class="ph3">
+    <div class="center mw7 pv3">
+        {{ partial "table-donate" .Params.accounts }}
+
+    </div>
+</div>
+
+<!-- Full-width image -->
+<img src="{{ .Params.full_image }}" alt="" class="db w-100">
+
+
+<div class="pv4 ph3">
+    <div class="center mw7 pv3">
+        <div class="mw8 center">
+            <p>{{.Params.contact_description}}</p>
+            <div class="flex-ns mb3">
+                {{ range .Params.contact_entries }}
+                <div class="w-50">
+                    <h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
+                    <p>{{ .phone }}
+                        <br> {{ .email }}</p>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>
+
+{{ partial "search-gallery" . }}
+
+{{ end }}

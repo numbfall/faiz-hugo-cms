@@ -1,0 +1,29 @@
+<div class="ph2">
+
+	<!-- Title -->
+	<h3 class="f5 grey-3 tc lh-title mb3">{{.option}}</h3>
+
+	<!-- Price -->
+	<p class="primary f1 b tc lh-title center">
+		{{.price}}
+	</p>
+
+	<!-- Description -->
+	<p class="b">{{.description}}</p>
+
+	<ul>
+        {{ range .items }}
+		<li>
+			<p class="pb2 mb2 divider-grey">
+			<sub class="db">
+				{{ .label }}
+			</sub>
+			<span>
+				{{ .text }}
+			</span>
+            </p>
+		</li>
+		{{ end }}
+	</ul>
+
+</div>

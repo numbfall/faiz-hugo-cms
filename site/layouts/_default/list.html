@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+{{ partial "jumbotron" (dict "imageUrl" "/img/facebook-cards.jpg" "title" "Latest stories") }}
+
+<div class="mw7 center">
+  <ul class="flex-ns flex-wrap mhn1-ns pa3">
+      {{ range (.Paginator 8).Pages }}
+          <div class="w-50-ns ph1-ns flex">
+            {{ .Render "li"}}
+          </div>
+      {{ end }}
+  </ul>
+  {{ partial "pagination" . }}
+</div>
+
+{{ partial "search-gallery" . }}
+
+{{end}}
