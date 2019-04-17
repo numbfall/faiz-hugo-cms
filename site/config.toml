@@ -6,6 +6,7 @@ enableRobotsTXT = true
 title = "Faiz-e-Aam Welfare Trust"
 
 [params]
+    headline = "Together we can make a difference"
     logo = "https://faizeaam.org/img/apple-touch-icon.png"
     image = "https://faizeaam.org/img/og-image.jpg"
     author = "Ayesha Iqbal"
