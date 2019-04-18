@@ -3,7 +3,8 @@
   publish = "dist"
 
 [build.environment]
-  HUGO_VERSION = "0.55.1"
+  HUGO_VERSION = "0.55.2"
+  RUBY_VERSION = "2.6.2"
   
 [[headers]]
   for = "/*.woff2"
