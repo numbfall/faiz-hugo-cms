@@ -13,7 +13,7 @@
 	        	{{ range .Params.contact_entries }}
 				<div class="w-50">
 					<h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
-					<p>{{ .phone }} <br>{{ .email }}</p>
+					<p><a class="link" href="tel:{{ .phone }}">{{ .phone }}</a> <br><a class="link" href="mailto:{{ .email }}">{{ .email }}</a></p>
 				</div>
 			{{ end }}
 		</div>

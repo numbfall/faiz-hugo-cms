@@ -2,11 +2,11 @@
 title: "Contact"
 contact_entries:
   - heading: Abid Iqbal
-    phone: "Call: 03009544394"
-    email: "Email: cdr.abid@gmail.com"
+    phone: "03009544394"
+    email: "cdr.abid@gmail.com"
   - heading: Ayesha Iqbal
-    phone: "Call: 03135418622"
-    email: "Email: ayeshaiq@gmail.com"
+    phone: "03135418622"
+    email: "ayeshaiq@gmail.com"
 ---
 
 We’d love to get in touch with you and hear your ideas and
