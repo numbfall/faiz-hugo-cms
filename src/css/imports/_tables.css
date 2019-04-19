@@ -1,7 +1,6 @@
 table
 {
   border-radius: var(--border-radius);
-  overflow: scroll;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -12,8 +11,12 @@ tbody tr {
   flex-direction: column;
 }
 
+thead {
+  display: none;
+}
+
 td, th {
-  padding: var(--spacing-medium);
+  padding: var(--spacing-small);
 }
 
 th:not(:first-child), td:not(:first-child) {
@@ -23,11 +26,10 @@ th:not(:first-child), td:not(:first-child) {
 th {
   color: var(--grey-3);
   font-weight: 700;
-  white-space: nowrap;
 }
 
 tr th {
-  text-align: center;
+  text-align: left;
 }
 
 tbody tr:nth-child(even) {
@@ -43,5 +45,11 @@ tbody tr:nth-child(even) {
   tbody tr {
     display: table-row;
     flex-direction: unset;
+  }
+  thead {
+    display: table-header-group;
+  }
+  td, th {
+    padding: var(--spacing-medium);
   }
 }

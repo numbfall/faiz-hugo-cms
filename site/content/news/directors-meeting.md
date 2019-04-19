@@ -6,14 +6,14 @@ description: Meeting took place between key members of the board to plan for the
 
 ## Decisions Taken
 
-| Particulars/Description                      | Duration          | Target Date | Responsible                      |
-| -------------------------------------------- | ----------------- | ----------- | -------------------------------- |
-| Half yearly report Faiz-e- Aam Welfare Trust | January-June 2018 | May-18      | Mam Ayesha Iqbal, Cdr Abid Iqbal |
-| Mount Hira School history                    | 2012-2018         | May-18      | Mam Ayesha Iqbal, Cdr Abid       |
-| Revised Fixed Asset List                     | Current Month     | March-18    | Zaman                            |
-| Vocational Centre/Library setting/adjustment | Current Month     | March-18    | Azmat Hayyat                     |
-| Start of Vocational Centre                   | Current Month     | April-18    | Mam Rizwana, Mam Saira           |
-| Computer Course classes                      | 1 Month           | April-18    | Zaman, Mam Rizwana, Mam Saira    |
-| Dastarkhwaan Program                         | Monthly Planning  | April-18    | Zaman, Mam Ayesha, Mam Rizwana   |
-| Medical Camp                                 | Monthly Planning  | April-18    | Zaman, Mam Ayesha, Mam Rizwana   |
-| Street Store                                 | Monthly Planning  | April-18    | Zaman, Mam Ayesha, Mam Rizwana   |
+| Particulars                                 | Duration          | Target   | Responsible                      |
+| ------------------------------------------- | ----------------- | -------- | -------------------------------- |
+| Half yearly report Faiz-e-Aam Welfare Trust | January-June 2018 | May-18   | Mam Ayesha Iqbal, Cdr Abid Iqbal |
+| Mount Hira School history                   | 2012-2018         | May-18   | Mam Ayesha Iqbal, Cdr Abid Iqbal |
+| Revised fixed asset list                    | Current Month     | March-18 | Zaman                            |
+| Vocational centre, library setting          | Current Month     | March-18 | Azmat Hayyat                     |
+| Start of vocational centre                  | Current Month     | April-18 | Mam Rizwana, Mam Saira           |
+| Computer course classes                     | 1 Month           | April-18 | Zaman, Mam Rizwana, Mam Saira    |
+| Dastarkhwaan program                        | Monthly Planning  | April-18 | Zaman, Mam Ayesha, Mam Rizwana   |
+| Medical camp                                | Monthly Planning  | April-18 | Zaman, Mam Ayesha, Mam Rizwana   |
+| Street store                                | Monthly Planning  | April-18 | Zaman, Mam Ayesha, Mam Rizwana   |
