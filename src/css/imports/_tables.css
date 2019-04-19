@@ -3,6 +3,13 @@ table
   border-radius: var(--border-radius);
   overflow: scroll;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+tbody tr {
+  display: flex;
+  flex-direction: column;
 }
 
 td, th {
@@ -25,4 +32,16 @@ tr th {
 
 tbody tr:nth-child(even) {
   background-color: var(--grey-1);
+  border-radius: var(--border-radius);
+}
+
+@media (--breakpoint-not-small) {
+  table {
+    display: table;
+    flex-direction: unset;
+  }
+  tbody tr {
+    display: table-row;
+    flex-direction: unset;
+  }
 }
