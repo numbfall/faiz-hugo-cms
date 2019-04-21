@@ -11,3 +11,51 @@ title = "Faiz-e-Aam Welfare Trust"
     image = "https://faizeaam.org/img/og-image.jpg"
     author = "Ayesha Iqbal"
     facebook = "https://www.facebook.com/Mount-HIRA-Street-Children-School-372062566191109/"
+
+[menu]
+    [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    pre = ""
+    url = "/"
+    weight = -110
+
+    [[menu.main]]
+    identifier = "work"
+    name = "Projects"
+    post = ""
+    pre = ""
+    url = "/projects"
+    weight = -100
+
+    [[menu.main]]
+    identifier = "about"
+    name = "Values"
+    post = ""
+    pre = ""
+    url = "/values"
+    weight = -90
+
+    [[menu.main]]
+    identifier = "news"
+    name = "News"
+    post = ""
+    pre = ""
+    url = "/news"
+    weight = -80
+
+    [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    post = ""
+    pre = ""
+    url = "/docontact"
+    weight = -70
+
+    [[menu.main]]
+    identifier = "donate"
+    name = "Donate"
+    post = ""
+    pre = ""
+    url = "/donate"
+    weight = -70
