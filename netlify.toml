@@ -9,6 +9,10 @@
 [[headers]]
   for = "/*"
   [headers.values]
+  X-Frame-Options = [
+  "allow-from https://www.youtube.com/",
+  "allow-from https://www.facebook.com/"
+  ]
   Link = "<https://fonts.gstatic.com>; rel=preconnect, </css/main.css>; rel=preload; as=style, </app.js>; rel=preload; as=script"
 
 [[headers]]
