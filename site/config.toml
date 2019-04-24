@@ -49,7 +49,7 @@ title = "Faiz-e-Aam Welfare Trust"
     name = "Contact"
     post = ""
     pre = ""
-    url = "/docontact"
+    url = "/contact"
     weight = -70
 
     [[menu.main]]
