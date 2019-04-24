@@ -1,5 +1,6 @@
 {
-	"name": "",
+	"name": "Faiz-e-Aam Welfare Trust", 
+	"short_name": "Faiz-e-Aam",
 	"icons": [
 		{
 			"src": "\/img\/android-chrome-192x192.png",
@@ -13,5 +14,7 @@
 		}
 	],
 	"theme_color": "#c71138",
-	"display": "standalone"
+	"background_color": "#ffffff",
+	"display": "standalone",
+	"start_url": "/"
 }
