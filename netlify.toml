@@ -6,12 +6,20 @@
   HUGO_VERSION = "0.55.2"
   RUBY_VERSION = "2.6.2"
   
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+  Link = ```
+  <https://fonts.gstatic.com>; rel=preconnect, \
+  </css/main.css>; rel=preload; as=style, \
+  </app.js>; rel=preload; as=script ```
+
 [[headers]]
   for = "/*.woff2"
   [headers.values]
     Access-Control-Allow-Origin = "*"
     Content-Type = "application/font-woff2"
-    Link = "<https://fonts.gstatic.com>; rel=preconnect"
 
 [[headers]]
   for = "/"
@@ -27,7 +35,7 @@
   for = "/values/"
   [headers.values]
     Link = "</img/facebook-classroom.jpg>; rel=preload; as=image"
-    
+
 [[headers]]
   for = "/donate/"
   [headers.values]
