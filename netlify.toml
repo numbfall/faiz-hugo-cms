@@ -11,20 +11,24 @@
   [headers.values]
     Access-Control-Allow-Origin = "*"
     Content-Type = "application/font-woff2"
-    Link = <https://fonts.gstatic.com>; rel=preconnect
+    Link = "<https://fonts.gstatic.com>; rel=preconnect"
 
+[[headers]]
   for = "/"
   [headers.values]
-    Link = </img/facebook-header.jpg>; rel=preload; as=image
+    Link = "</img/facebook-header.jpg>; rel=preload; as=image"
 
+[[headers]]
   for = "/projects/"
   [headers.values]
-    Link = </img/facebook-collage.jpg>; rel=preload; as=image
+    Link = "</img/facebook-collage.jpg>; rel=preload; as=image"
 
+[[headers]]
   for = "/values/"
   [headers.values]
-    Link = </img/facebook-classroom.jpg>; rel=preload; as=image
-
+    Link = "</img/facebook-classroom.jpg>; rel=preload; as=image"
+    
+[[headers]]
   for = "/donate/"
   [headers.values]
-    Link = </img/facebook-cute-girl.jpg>; rel=preload; as=image
+    Link = "</img/facebook-cute-girl.jpg>; rel=preload; as=image"
