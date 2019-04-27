@@ -1,9 +1,9 @@
 const { src, dest, series, watch } = require('gulp');
 const cp = require("child_process");
-const gutil = require("gulp-util");
 const postcss = require("gulp-postcss");
 const cssImport = require("postcss-import");
 const cssnext = require("postcss-cssnext");
+const uncss = require("postcss-uncss");
 const BrowserSync = require("browser-sync");
 const webpack = require("webpack");
 const webpackConfig = require("./webpack.conf");
@@ -40,7 +40,7 @@ function css() {
     .pipe(postcss([
       cssImport({from: "./src/css/main.css"}),
       cssnext(),
-      cssnano(),
+      cssnano({autoprefixer: true}),
     ]))
     .pipe(dest("./dist/css"))
     .pipe(browserSync.stream());
@@ -49,12 +49,7 @@ function css() {
 function js(cb) {
   const myConfig = Object.assign({}, webpackConfig);
 
-  webpack(myConfig, (err, stats) => {
-    if (err) throw new gutil.PluginError("webpack", err);
-    gutil.log("[webpack]", stats.toString({
-      colors: true,
-      progress: true
-    }));
+  webpack(myConfig, () => {
     browserSync.reload();
     cb();
   });
@@ -65,7 +60,7 @@ function svg() {
     .pipe(svgmin())
     .pipe(svgstore({inlineSvg: true}));
 
-  function fileContents(filePath, file) {
+  function fileContents(file) {
     return file.contents.toString();
   }
 
@@ -74,8 +69,7 @@ function svg() {
     .pipe(dest("site/layouts/partials/"));
 }
 
-function server() {
-  build();
+function initBrowserSync() {
   browserSync.init({
     server: {
       baseDir: "./dist"
@@ -85,6 +79,10 @@ function server() {
   watch("./src/css/**/*.css", css);
   watch("./site/static/img/icons-*.svg", svg);
   watch("./site/**/*", hugo);
+}
+
+function server(cb) {
+  return series(build, initBrowserSync)(cb);
 }
 
 function buildSite(cb, options) {
@@ -105,5 +103,6 @@ exports.hugo = hugo;
 exports.start = server;
 exports.build = build;
 exports.webpack = js;
+exports.postcss = css;
 exports.svg = svg;
 exports.preview = buildPreview;

@@ -25,7 +25,7 @@ title = "Faiz-e-Aam Welfare Trust"
     name = "Projects"
     post = ""
     pre = ""
-    url = "/projects"
+    url = "/projects/"
     weight = -100
 
     [[menu.main]]
@@ -33,7 +33,7 @@ title = "Faiz-e-Aam Welfare Trust"
     name = "Values"
     post = ""
     pre = ""
-    url = "/values"
+    url = "/values/"
     weight = -90
 
     [[menu.main]]
@@ -41,7 +41,7 @@ title = "Faiz-e-Aam Welfare Trust"
     name = "News"
     post = ""
     pre = ""
-    url = "/news"
+    url = "/news/"
     weight = -80
 
     [[menu.main]]
@@ -49,7 +49,7 @@ title = "Faiz-e-Aam Welfare Trust"
     name = "Contact"
     post = ""
     pre = ""
-    url = "/contact"
+    url = "/contact/"
     weight = -70
 
     [[menu.main]]
@@ -57,5 +57,5 @@ title = "Faiz-e-Aam Welfare Trust"
     name = "Donate"
     post = ""
     pre = ""
-    url = "/donate"
+    url = "/donate/"
     weight = -70
