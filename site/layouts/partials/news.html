@@ -3,16 +3,16 @@
 
 		<h2 class="f2 lh-title mb3">Latest stories</h1>
 
-		<div class="w-100 flex-ns mhn1-ns flex-wrap mb3">
+		<div class="w-100 flex-ns mhn1-ns flex-wrap mb3 cool-cards-container">
 			{{ range first 4 (where .Data.Pages "Type" "news") }}
-				<div class="ph1-ns w-50-ns flex">
+				<div class="ph1-ns w-50-ns flex cool-cards">
 					{{ .Render "li" }}
 				</div>
 			{{ end }}
 		</div>
 
 		<div class="tc">
-			<a href="/news" class="btn raise">Read more</a>
+			<a href="/news" class="btn raise">See all news</a>
 		</div>
 
 	</div>
