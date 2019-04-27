@@ -2,8 +2,8 @@ const { src, dest, series, watch } = require('gulp');
 const cp = require("child_process");
 const postcss = require("gulp-postcss");
 const cssImport = require("postcss-import");
-const cssnext = require("postcss-cssnext");
-const uncss = require("postcss-uncss");
+const purgecss = require("postcss-purgecss");
+const presetEnv = require("postcss-preset-env");
 const BrowserSync = require("browser-sync");
 const webpack = require("webpack");
 const webpackConfig = require("./webpack.conf");
@@ -39,7 +39,8 @@ function css() {
   return src("./src/css/*.css")
     .pipe(postcss([
       cssImport({from: "./src/css/main.css"}),
-      cssnext(),
+      presetEnv({stage: 0}),
+      purgecss({content: ['./site/layouts/**/*.html']}),
       cssnano({autoprefixer: true}),
     ]))
     .pipe(dest("./dist/css"))
