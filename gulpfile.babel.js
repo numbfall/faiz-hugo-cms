@@ -40,7 +40,7 @@ function css() {
     .pipe(postcss([
       cssImport({from: "./src/css/main.css"}),
       presetEnv({stage: 0}),
-      purgecss({content: ['./site/layouts/**/*.html']}),
+      purgecss({content: ['./site/layouts/**/*.html'], whitelistPatternsChildren: [/nav-icon/, /off-canvas/]}),
       cssnano({autoprefixer: true}),
     ]))
     .pipe(dest("./dist/css"))
