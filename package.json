@@ -53,8 +53,6 @@
     "postcss-loader": "^2.1.6",
     "postcss-preset-env": "^6.6.0",
     "postcss-purgecss": "^1.0.0",
-    "svg-sprite-loader": "^3.9.2",
-    "url-loader": "^1.1.2",
     "webpack": "^4.30.0",
     "whatwg-fetch": "^2.0.0"
   }

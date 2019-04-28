@@ -75,20 +75,20 @@ body {
     margin-left: -6rem;
   }
   & a {
-    box-shadow: -2px 4px 8px 2px rgba(0,0,0,0.3);
+    box-shadow: -8px 8px 24px -6px rgba(0,0,0,0.15);
     transition: transform .125s ease-in !important;
   }
   &:hover ~ .cool-cards,
   &:focus-within ~ .cool-cards {
   transform: translateX(5rem);
     & a {
-      box-shadow: -2px 2px 4px 0 rgba(0,0,0,0.4);
+      box-shadow: -2px 4px 18px -4px rgba(0,0,0,0.19);
     }
   }
   &:hover a,
   &:focus-within a {
     transform: translateY(-0.5rem);
-    box-shadow: 0 0 2px 2px #c51162, -4px 8px 12px 4px rgba(0,0,0,0.2);
+    box-shadow: 0 0 2px 2px #c51162, -10px 10px 30px -8px rgba(0,0,0,0.13);
   }
 }
 }

@@ -20,7 +20,7 @@ if (process.env.DEBUG) {
 }
 
 function hugo(cb) {
-  buildSite(cb)
+  buildSite(cb, ["--quiet"])
 }
 
 function hugoPreview(cb) { 
