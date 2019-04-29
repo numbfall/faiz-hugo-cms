@@ -6,6 +6,7 @@ import PostPreview from "./cms-preview-templates/post";
 import ProjectsPreview from "./cms-preview-templates/projects";
 import ValuesPreview from "./cms-preview-templates/values";
 import ContactPreview from "./cms-preview-templates/contact";
+import DonatePreview from "./cms-preview-templates/donate";
 
 
 // Example of creating a custom color widget
@@ -26,4 +27,5 @@ CMS.registerPreviewTemplate("post", PostPreview);
 CMS.registerPreviewTemplate("projects", ProjectsPreview);
 CMS.registerPreviewTemplate("values", ValuesPreview);
 CMS.registerPreviewTemplate("contact", ContactPreview);
+CMS.registerPreviewTemplate("donate", DonatePreview);
 CMS.registerWidget("color", ColorControl);

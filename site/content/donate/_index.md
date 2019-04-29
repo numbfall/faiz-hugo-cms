@@ -1,6 +1,5 @@
 ---
 title: "Donate"
-logo: "/img/logo.svg"
 image: "/img/facebook-cute-girl.jpg"
 full_image: "/img/facebook-beautiful-girl.jpg"
 contact_description: Even a small donation makes a difference to us. So don't be shy and support us with whatever you can. For further queries or details please feel free to contact us.
