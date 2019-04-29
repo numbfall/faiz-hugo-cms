@@ -8,19 +8,16 @@
     <a href="/pdf/faizeaam-booklet.pdf" target="_blank" class="btn raise">Download our booklet</a>
 </div>
 
-{{ with .Params.main }}
 <div class="mw7 center">
   <div class="mw6 ph3 mb3">
-    <h3 class="f3 lh-title mb2">{{ .heading }}</h3>
-    <p>{{ .description }}</p>
+    <h3 class="f3 lh-title mb2">{{ .Params.main.heading }}</h3>
+    <p>{{ .Params.main.description }}</p>
   </div>
 </div>
 
+{{ with .Params.main }}
 <!-- Image grid -->
 {{ partial "image-grid" . }}
-
-{{ partial "search-gallery" . }}
-
 {{ end }}
 
 <div class="tc mb4">
@@ -40,5 +37,7 @@
 <div class="tc mb4">
     <a href="/donate" class="btn raise">Donate now</a>
 </div>
+
+{{ partial "search-gallery" . }}
 
 {{ end }}

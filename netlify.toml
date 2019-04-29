@@ -14,7 +14,7 @@
   "allow-from https://www.youtube-noocookie.com/",
   "allow-from https://www.facebook.com/"
   ]
-  Link = "<https://fonts.gstatic.com>; rel=preconnect, </css/main.css>; rel=preload; as=style, </app.js>; rel=preload; as=script"
+  Link = "<https://fonts.gstatic.com>; rel=preconnect, <https://www.facebook.com>; rel=preconnect, </css/main.css>; rel=preload; as=style, </app.js>; rel=preload; as=script"
 
 [[headers]]
   for = "/*.woff2"

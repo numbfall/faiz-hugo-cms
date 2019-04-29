@@ -92,3 +92,14 @@ body {
   }
 }
 }
+
+.fb_iframe_widget_fluid {
+  &.fb_iframe_widget {
+    display: flex;
+    justify-content: center;
+  }
+  & > span {
+    max-width: 350px;
+    background-color: var(--grey-2);
+  }
+}

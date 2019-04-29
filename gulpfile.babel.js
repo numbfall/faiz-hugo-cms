@@ -39,9 +39,9 @@ function css() {
   return src("./src/css/*.css")
     .pipe(postcss([
       cssImport({from: "./src/css/main.css"}),
-      presetEnv({stage: 0}),
-      purgecss({content: ['./site/layouts/**/*.html'], whitelistPatternsChildren: [/nav-icon/, /off-canvas/]}),
-      cssnano({autoprefixer: true}),
+      presetEnv({stage: 0, preserve: false}),
+      purgecss({content: ['./site/layouts/**/*.html'], whitelistPatternsChildren: [/fb_iframe/ ,/nav-icon/, /off-canvas/, /header/]}),
+      cssnano(),
     ]))
     .pipe(dest("./dist/css"))
     .pipe(browserSync.stream());

@@ -14,6 +14,9 @@
   &.btn-blue {
     color: #3B5998;
     box-shadow: inset 0 0 0 2px #3B5998;
+    &:hover {
+      background-color: white;
+    }
   }
   &.btn-yellow {
     color: var(--highlight);
