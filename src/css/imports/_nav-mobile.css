@@ -8,7 +8,7 @@
     right: 4px;
     background-color: var(--primary);
     min-width: 50vw;
-    box-shadow: -6px 6px 19px -4px rgba(0,0,0,0.3);
+    box-shadow: -6px 6px 18px -4px rgba(0,0,0,0.3);
     /* transform: translate(-2px, 2px); */
 }
 

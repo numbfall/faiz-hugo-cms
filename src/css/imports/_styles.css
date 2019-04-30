@@ -47,7 +47,7 @@ body {
 }
 
 #header.scrolled {
-  box-shadow: 0 3px 3px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 3px 12px -6px rgba(0,0,0,0.2);
   & #prim-nav li a {
     padding-top: 0.625rem;
     padding-bottom: 0.625rem;
@@ -70,13 +70,13 @@ body {
   flex-wrap: nowrap;
 }
 .cool-cards {
-  transition: all 0.125s ease-in !important;
+  transition: all 0.125s ease-in;
   &:not(:first-child) {
     margin-left: -6rem;
   }
   & a {
     box-shadow: -8px 8px 24px -6px rgba(0,0,0,0.15);
-    transition: transform .125s ease-in !important;
+    transition: transform .125s ease-in;
   }
   &:hover ~ .cool-cards,
   &:focus-within ~ .cool-cards {
