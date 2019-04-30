@@ -10,10 +10,11 @@ module.exports = {
         loader: "file-loader?name=/[hash].[ext]"
       },
       {
-        loader: "babel-loader",
+        // loader: "babel-loader",
         test: /\.js?$/,
         exclude: /node_modules/,
-        query: {cacheDirectory: true}
+        use: ['babel-loader', 'eslint-loader'],
+        // query: {cacheDirectory: true}
       }
     ]
   },

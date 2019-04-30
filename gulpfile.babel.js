@@ -6,7 +6,7 @@ const purgecss = require("postcss-purgecss");
 const presetEnv = require("postcss-preset-env");
 const BrowserSync = require("browser-sync");
 const webpack = require("webpack");
-const webpackConfig = require("./webpack.conf");
+const webpackConfig = require("./webpack.conf.js");
 const svgstore = require("gulp-svgstore");
 const svgmin = require("gulp-svgmin");
 const inject = require("gulp-inject");
@@ -20,7 +20,7 @@ if (process.env.DEBUG) {
 }
 
 function hugo(cb) {
-  buildSite(cb, ["--quiet"])
+  buildSite(cb)
 }
 
 function hugoPreview(cb) { 
@@ -39,9 +39,9 @@ function css() {
   return src("./src/css/*.css")
     .pipe(postcss([
       cssImport({from: "./src/css/main.css"}),
-      presetEnv({stage: 0, preserve: false}),
-      purgecss({content: ['./site/layouts/**/*.html'], whitelistPatternsChildren: [/fb_iframe/ ,/nav-icon/, /off-canvas/, /header/]}),
-      cssnano(),
+      presetEnv({stage: 1, preserve: false}),
+      purgecss({content: ['./site/layouts/**/*.html'], whitelistPatternsChildren: [/^fb_iframe/ ,/^nav-icon/, /^off-canvas/, /^header/]}),
+      cssnano()
     ]))
     .pipe(dest("./dist/css"))
     .pipe(browserSync.stream());
@@ -50,7 +50,12 @@ function css() {
 function js(cb) {
   const myConfig = Object.assign({}, webpackConfig);
 
-  webpack(myConfig, () => {
+  webpack(myConfig, (err, stats) => {
+    if (err) console.log("webpack:build " + err);
+    console.log("[webpack]", stats.toString({
+      colors: true,
+      progress: true
+    }));
     browserSync.reload();
     cb();
   });

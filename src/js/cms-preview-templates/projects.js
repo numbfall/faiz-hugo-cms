@@ -28,8 +28,8 @@ export default class PostPreview extends React.Component {
         </div>
       </div>
 
-      <div class="tc mb4">
-        <a href="/pdf/faizeaam-booklet.pdf" target="_blank" class="btn raise">Download our booklet</a>
+      <div className="tc mb4">
+        <a href="/pdf/faizeaam-booklet.pdf" rel="noopener noreferrer" target="_blank" className="btn raise">Download our booklet</a>
       </div>
 
       <div className="mw7 center">
@@ -56,36 +56,36 @@ export default class PostPreview extends React.Component {
         </div>
       </div>
 
-      <div class="tc mb4">
-        <a href="https://www.facebook.com/Mount-HIRA-Street-Children-School-372062566191109/" target="_blank" class="btn raise btn-blue">Find us on facebook</a>
+      <div className="tc mb4">
+        <a href="https://www.facebook.com/Mount-HIRA-Street-Children-School-372062566191109/" rel="noopener noreferrer" target="_blank" className="btn raise btn-blue">Find us on facebook</a>
       </div>
 
-      <div class="mw7 center">
-        <div class="mw6 ph3 mb3">
-          <h3 class="f3 b lh-title mb2">{entry.getIn(["data", "videos", "videosHeading"])}</h3>
+      <div className="mw7 center">
+        <div className="mw6 ph3 mb3">
+          <h3 className="f3 b lh-title mb2">{entry.getIn(["data", "videos", "videosHeading"])}</h3>
           <p>{entry.getIn(["data", "videos", "videosDescription"])}</p>
         </div>
       </div>
 
-      <div class="mw7 center ph3 pv4">
+      <div className="mw7 center ph3 pv4">
 
-        <div class="flex flex-wrap mhn1">
-          <div class="w-100 w-50-ns pv1 pv0-ns ph1-ns">
-            <div class="aspect-ratio aspect-ratio--16x9">
-              <iframe class="aspect-ratio--object bg-grey-2 br1" src={entry.getIn(["data", "videos", "video1"])} frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+        <div className="flex flex-wrap mhn1">
+          <div className="w-100 w-50-ns pv1 pv0-ns ph1-ns">
+            <div className="aspect-ratio aspect-ratio--16x9">
+              <iframe className="aspect-ratio--object bg-grey-2 br1" src={entry.getIn(["data", "videos", "video1"])} frameBorder="0" allow="encrypted-media" allowFullScreen></iframe>
             </div>
           </div>
-          <div class="w-100 w-50-ns pv1 pv0-ns ph1-ns">
-            <div class="aspect-ratio aspect-ratio--16x9">
-              <iframe class="aspect-ratio--object bg-grey-2 br1" src={entry.getIn(["data", "videos", "video2"])} frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+          <div className="w-100 w-50-ns pv1 pv0-ns ph1-ns">
+            <div className="aspect-ratio aspect-ratio--16x9">
+              <iframe className="aspect-ratio--object bg-grey-2 br1" src={entry.getIn(["data", "videos", "video2"])} frameBorder="0" allow="encrypted-media" allowFullScreen></iframe>
             </div>
           </div>
         </div>
       </div>
 
 
-      <div class="tc mb4">
-        <a href="/donate" class="btn raise">Donate now</a>
+      <div className="tc mb4">
+        <a href="/donate" className="btn raise">Donate now</a>
       </div>
 
     </div>;

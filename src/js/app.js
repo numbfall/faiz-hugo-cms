@@ -1,6 +1,6 @@
 // JS Goes here - ES6 supported
 if (window.netlifyIdentity) {
-  window.netlifyIdentity.on("init", user => {
+  window.netlifyIdentity.on("init", (user) => {
     if (!user) {
       window.netlifyIdentity.on("login", () => {
         document.location.href = "/admin/";
@@ -9,7 +9,7 @@ if (window.netlifyIdentity) {
   });
 }
 
-window.toggleMenu = (el) => {
+window.toggleMenu = () => {
   const mu = document.getElementById("off-canvas");
   const ni = document.getElementById("nav-icon");
   mu.classList.toggle("active");
@@ -49,32 +49,32 @@ window.toggleDiv = function(modal) {
     removeClass(document.body, "overflow-y-scroll");
     addClass(div, "db");
     addClass(document.body, "overflow-y-hidden");
-  } 
+  }
   else {
     removeClass(div, "db");
     removeClass(document.body, "overflow-y-hidden");
     addClass(div, "dn");
     addClass(document.body, "overflow-y-scroll");
   }
-}
+};
 
 window.closeDiv = function(modal, iframe) {
   var div = document.getElementById(modal);
-  var iframe = document.getElementById(iframe);
-  iframe.src = iframe.src;
+  var frame = document.getElementById(iframe);
+  frame.src = frame.src;
   if (hasClass(div, "dn")) {
     removeClass(div, "dn");
     removeClass(document.body, "overflow-y-scroll");
     addClass(div, "db");
     addClass(document.body, "overflow-y-hidden");
-  } 
+  }
   else {
     removeClass(div, "db");
     removeClass(document.body, "overflow-y-hidden");
     addClass(div, "dn");
     addClass(document.body, "overflow-y-scroll");
   }
-}
+};
 
 window.onscroll = function() {
 

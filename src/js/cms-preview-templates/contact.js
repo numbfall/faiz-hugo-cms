@@ -8,7 +8,7 @@ const ContactEntry = ({heading, phone, email}) =>
 
 const ContactEntries = ({data}) => data && data.length > 0
   ? <div className="flex-ns justify-between mb3">
-    {data.map(({heading, phone, email}) => <ContactEntry heading={heading} phone={phone} email={email} />)}
+    {data.map(({heading, phone, email}, i) => <ContactEntry key={i} heading={heading} phone={phone} email={email} />)}
   </div>
   : "";
 
