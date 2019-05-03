@@ -5,8 +5,8 @@ description: This year, 5 students of Mount Hira School appeared in 5th class Fe
   Exam. All qualified with good grades. Alhamdolillah!
 ---
 
-![Alishba Khan](/img/exams/2019/alishba.jpg)
-![Bushra Habib](/img/exams/2019/bushra.jpg)
-![Ikram Ullah](/img/exams/2019/ikramullah.jpg)
-![Mahnoor Tariq Shah](/img/exams/2019/mahnoor.jpg)
-![Noman Ali](/img/exams/2019/noman.jpg)
+![Alishba Khan](/img/exams/2019/alishba.webp)
+![Bushra Habib](/img/exams/2019/bushra.webp)
+![Ikram Ullah](/img/exams/2019/ikramullah.webp)
+![Mahnoor Tariq Shah](/img/exams/2019/mahnoor.webp)
+![Noman Ali](/img/exams/2019/noman.webp)

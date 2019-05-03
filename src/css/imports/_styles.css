@@ -17,7 +17,7 @@
       color: white;
       background-color: var(--primary);
       &:focus {
-        box-shadow: inset 0 -4px 0 #f9a825;
+        box-shadow: inset 0 -4px 0 var(--highlight);
       }
     }
   }
@@ -88,7 +88,7 @@ body {
   &:hover a,
   &:focus-within a {
     transform: translateY(-0.5rem);
-    box-shadow: 0 0 2px 2px #c51162, -10px 10px 30px -8px rgba(0,0,0,0.13);
+    box-shadow: 0 0 2px 2px var(--primary), -10px 10px 30px -8px rgba(0,0,0,0.13);
   }
 }
 }
@@ -100,6 +100,12 @@ body {
   }
   & > span {
     max-width: 350px;
+    min-width: 100px;
+    min-height: 100px;
     background-color: var(--grey-2);
   }
+}
+
+div > iframe {
+  background-color: var(--grey-2);
 }

@@ -1,7 +1,7 @@
 ---
 title: "You are subscribed"
-image: /img/facebook-flowers.jpg
-imageEnd: /img/facebook-flower-boy.jpg
+image: /img/facebook-flowers.webp
+imageEnd: /img/facebook-flower-boy.webp
 imageAlt: Flower Boy
 ---
 

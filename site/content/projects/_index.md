@@ -1,6 +1,6 @@
 ---
 title: Our projects
-image: /img/facebook-collage.jpg
+image: /img/facebook-collage.webp
 intro:
   blurbs:
     - image: /img/illustrations-vocational.svg
@@ -42,13 +42,13 @@ main:
   heading: We are very active on facebook
   image1:
     alt: Distribution of ration
-    image: /img/facebook-dresses.jpg
+    image: /img/facebook-dresses.webp
   image2:
     alt: Serving food to hundreds
-    image: /img/facebook-food.jpg
+    image: /img/facebook-food.webp
   image3:
     alt: Clothes distribution
-    image: /img/facebook-transgender.jpg
+    image: /img/facebook-transgender.webp
 videos:
   video1: 'https://www.youtube-nocookie.com/embed/gWeBra4AvXw?rel=0&amp;showinfo=0&amp'
   video2: 'https://www.youtube-nocookie.com/embed/UokIlrihy7U?rel=0&amp;showinfo=0;start=14'

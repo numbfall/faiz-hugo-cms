@@ -40,7 +40,7 @@ function css() {
     .pipe(postcss([
       cssImport({from: "./src/css/main.css"}),
       presetEnv({stage: 3, preserve: false, features: {'custom-media-queries': true, 'nesting-rules': true}}),
-      purgecss({content: ['./site/layouts/**/*.html'], whitelistPatternsChildren: [/^fb_iframe/ ,/^nav-icon/, /^off-canvas/, /^header/]}),
+      purgecss({content: ['./site/layouts/**/*.html'], whitelist: ['table', 'tbody', 'tr', 'th', 'td', 'thead'], whitelistPatternsChildren: [/^fb_iframe/ ,/^nav-icon/, /^off-canvas/, /^header/]}),
       cssnano()
     ]))
     .pipe(dest("./dist/css"))

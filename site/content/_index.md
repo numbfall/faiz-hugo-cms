@@ -2,7 +2,7 @@
 title: Home
 heading: Together we can make a difference!
 subtitle: ' '
-image: /img/facebook-header.jpg
+image: /img/facebook-header.webp
 blurb:
   heading: Who are we??
   text: >-
@@ -32,7 +32,7 @@ projects:
 values:
   alt: Mount Hira Teacher
   heading: Our vision
-  image: /img/facebook-teacher.jpg
+  image: /img/facebook-teacher.webp
   text: >-
     Is to create lasting solutions to poverty, hunger, ignorance and illness.
     Resulting in general hapiness of the society and a promising future for our

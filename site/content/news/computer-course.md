@@ -2,7 +2,7 @@
 title: Launching of new computer course
 date: 2017-03-04T15:04:10.000Z
 description: Started basic computer course for Mount Hira School students.
-image: /img/facebook-computer-course.jpg
+image: /img/facebook-computer-course.webp
 ---
 
 ## Course Description
