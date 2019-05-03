@@ -3,7 +3,7 @@
   publish = "dist"
 
 [build.environment]
-  HUGO_VERSION = "0.55.4"
+  HUGO_VERSION = "0.55.5"
   RUBY_VERSION = "2.6.2"
 
 [[headers]]
