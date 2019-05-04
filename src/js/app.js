@@ -1,4 +1,10 @@
 // JS Goes here - ES6 supported
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js')
+  });
+}
+
 if (window.netlifyIdentity) {
   window.netlifyIdentity.on("init", (user) => {
     if (!user) {

@@ -52,6 +52,7 @@
     "postcss-preset-env": "^6.6.0",
     "postcss-purgecss": "^1.0.0",
     "webpack": "^4.30.0",
-    "whatwg-fetch": "^2.0.0"
+    "whatwg-fetch": "^2.0.0",
+    "workbox-webpack-plugin": "^4.3.1"
   }
 }
