@@ -38,6 +38,9 @@ module.exports = {
           },
         },
       },{
+        urlPattern: /\.(?:js|css)$/,
+        handler: 'StaleWhileRevalidate',
+      },{
         urlPattern: /^https:\/\/fonts\.googleapis\.com/,
         handler: 'StaleWhileRevalidate',
         options: {
