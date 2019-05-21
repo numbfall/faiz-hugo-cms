@@ -41,7 +41,7 @@
     "eslint-plugin-react": "^7.13.0",
     "exports-loader": "^0.7.0",
     "file-loader": "^1.0.0",
-    "gulp": "^4.0.1",
+    "gulp": "^4.0.2",
     "gulp-inject": "^4.2.0",
     "gulp-postcss": "^7.0.0",
     "gulp-svgmin": "^2.2.0",
@@ -51,7 +51,7 @@
     "postcss-loader": "^2.1.6",
     "postcss-preset-env": "^6.6.0",
     "postcss-purgecss": "^1.0.0",
-    "webpack": "^4.30.0",
+    "webpack": "^4.32.0",
     "whatwg-fetch": "^2.0.0",
     "workbox-webpack-plugin": "^4.3.1"
   }
