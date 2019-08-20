@@ -9,9 +9,10 @@
 
 	<!-- Primary Nav -->
 	<ul class="primary-nav flex-m dn b grey-3" id="prim-nav">
+		{{ $url := .CurrentSection.RelPermalink }}
 		{{ range .Site.Menus.main }}
 		<li>
-			<a href="{{ .URL }}" class="pa3 no-underline db">
+			<a href="{{ .URL }}" class="pa3 no-underline db {{ if eq $url .URL }}active{{ end }}">
 				{{ .Name }}
 			</a>
 		</li>
