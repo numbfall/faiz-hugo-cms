@@ -22,7 +22,7 @@ module.exports = {
 
   plugins: [
     new webpack.ProvidePlugin({
-      "fetch": "exports-loader?global.fetch!whatwg-fetch"
+      "fetch": "imports-loader?this=>global!exports-loader?global.fetch!whatwg-fetch"
     }),
     new WorkboxPlugin.GenerateSW({
       cleanupOutdatedCaches: true,
