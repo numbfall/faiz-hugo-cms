@@ -3,6 +3,9 @@ title: Our projects
 image: /img/facebook-collage.webp
 intro:
   blurbs:
+    - image: /img/illustrations-school.svg
+      text: >-
+        A well equipped school runs under the umbrella of Faiz-e-Aam welfare trust. Children receive free primary education, course books, uniforms, and snacks. This school is registered as Mount Hira, and provides value-based moral education to children along with formal studies.
     - image: /img/illustrations-vocational.svg
       text: >-
         We have initiated skill development programs for ladies from slum areas
@@ -27,6 +30,9 @@ intro:
         tailoring, electric work, computer skills, and more. These centers aim
         to develop bread-earning capabilities in young children. This has now
         evolved into a charity school by the grace of Allah.
+    - image: /img/illustrations-marriage.svg
+      text: >-
+        Orphan girls are helped in getting them married, by managing their wedding arrangement funds. Donors are encouraged to contribute in cash and kind for this cause. Used wedding day clothes may also be contributed if they are in good condition.
   description: >-
     Faiz-e-Aam trust is working on a number of projects for the benefit and
     welfare of the underprivileged. These include educational as well as social

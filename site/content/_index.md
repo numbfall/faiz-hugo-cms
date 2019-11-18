@@ -17,12 +17,9 @@ intro:
     social welfare programs. Please take some time and have a look at our
     following projects.
 projects:
-  - image: /img/illustrations-vocational.svg
+  - image: /img/illustrations-school.svg
     text: >-
-      We have initiated skill development programs for ladies from slum areas
-      and the transgender community. We teach them skills such as sewing,
-      cutting, cooking, etc. so they can become self-sufficient and contributing
-      members of the society.
+      A well equipped school runs under the umbrella of Faiz-e-Aam welfare trust, where hundreds of children receive free primary education, course books, uniforms, and snacks. This school is registered as Mount Hira, and provides value-based moral education to children along with formal studies.
   - image: /img/illustrations-medical.svg
     text: >-
       We frequently establish medical camps around the poor comunity to provide
