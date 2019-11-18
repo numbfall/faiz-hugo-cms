@@ -19,7 +19,7 @@ intro:
 projects:
   - image: /img/illustrations-school.svg
     text: >-
-      A well equipped school runs under the umbrella of Faiz-e-Aam welfare trust, where hundreds of children receive free primary education, course books, uniforms, and snacks. This school is registered as Mount Hira, and provides value-based moral education to children along with formal studies.
+      A well equipped school runs under the umbrella of Faiz-e-Aam welfare trust. Children receive free primary education, course books, uniforms, and snacks. This school is registered as Mount Hira, and provides value-based moral education to children along with formal studies.
   - image: /img/illustrations-medical.svg
     text: >-
       We frequently establish medical camps around the poor comunity to provide
