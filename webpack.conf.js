@@ -64,8 +64,7 @@ module.exports = {
 
   context: path.join(__dirname, "src"),
   entry: {
-    app: ["./js/app"],
-    cms: ["./js/cms"]
+    app: ["./js/app"]
   },
   output: {
     path: path.join(__dirname, "dist"),

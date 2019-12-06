@@ -5,7 +5,6 @@
   "parser": "babel-eslint",
   "plugins": [
     "import",
-    "react",
     "env"
   ],
   "settings": {
@@ -14,8 +13,7 @@
     }
   },
   "rules": {
-    "no-self-assign": 0,
-    "react/prop-types": 0
+    "no-self-assign": 0
   },
-  "extends": ["eslint:recommended", "plugin:react/recommended"]
+  "extends": ["eslint:recommended"]
 }

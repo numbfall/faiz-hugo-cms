@@ -5,16 +5,6 @@ if ('serviceWorker' in navigator) {
   });
 }
 
-if (window.netlifyIdentity) {
-  window.netlifyIdentity.on("init", (user) => {
-    if (!user) {
-      window.netlifyIdentity.on("login", () => {
-        document.location.href = "/admin/";
-      });
-    }
-  });
-}
-
 window.toggleMenu = () => {
   const mu = document.getElementById("off-canvas");
   const ni = document.getElementById("nav-icon");
