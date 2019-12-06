@@ -1,5 +1,5 @@
 <head>
-	{{ template "_internal/google_analytics.html" . }}
+	{{ template "_internal/google_analytics_async.html" . }}
 	<meta name="description" content="{{ if isset .Params `description` }}{{ .Params.description }}{{ else }}{{ .Site.Params.headline }}{{ end }}">
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
