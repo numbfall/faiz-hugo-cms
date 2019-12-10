@@ -1,8 +1,10 @@
 html {
   font-size: var(--font-size);
+
   @media (--breakpoint-medium) {
     font-size: var(--font-size-m);
   }
+
   @media (--breakpoint-large) {
     font-size: var(--font-size-l);
   }
@@ -17,9 +19,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--off-white);
- }
+}
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: var(--font-cursive);
 }
 
@@ -49,11 +53,16 @@ sub {
 }
 
 .text-jumbotron {
+  color: var(--primary);
+  -webkit-font-smoothing: antialiased;
   text-shadow:
-   -2px -2px 0 var(--off-white),  
-    2px -2px 0 var(--off-white),
-   -2px 2px 0 var(--off-white),
-    2px 2px 0 var(--off-white);
+  3px 3px 0 var(--off-white),
+  -2px -2px 0 var(--off-white),
+  2px -2px 0 var(--off-white),
+  -2px 2px 0 var(--off-white),
+  2px 2px 0 var(--off-white),
+  2px 2px 6px rgba(0,0,0,0.15),
+  2px 2px 8px rgba(0,0,0,0.15);
 }
 
 /* Measure is limited to ~66 characters */
@@ -91,23 +100,28 @@ sub {
 }
 
 @media (--breakpoint-not-small) {
-  .measure-ns  {
+  .measure-ns {
     max-width: 30em;
   }
+
   .measure-wide-ns {
     max-width: 34em;
   }
+
   .measure-narrow-ns {
     max-width: 20em;
   }
+
   .indent-ns {
     text-indent: 1em;
     margin-top: 0;
     margin-bottom: 0;
   }
+
   .small-caps-ns {
     font-variant: small-caps;
   }
+
   .truncate-ns {
     white-space: nowrap;
     overflow: hidden;
@@ -119,20 +133,25 @@ sub {
   .measure-m {
     max-width: 30em;
   }
+
   .measure-wide-m {
     max-width: 34em;
   }
+
   .measure-narrow-m {
     max-width: 20em;
   }
+
   .indent-m {
     text-indent: 1em;
     margin-top: 0;
     margin-bottom: 0;
   }
+
   .small-caps-m {
     font-variant: small-caps;
   }
+
   .truncate-m {
     white-space: nowrap;
     overflow: hidden;
@@ -144,20 +163,25 @@ sub {
   .measure-l {
     max-width: 30em;
   }
+
   .measure-wide-l {
     max-width: 34em;
   }
+
   .measure-narrow-l {
     max-width: 20em;
   }
+
   .indent-l {
     text-indent: 1em;
     margin-top: 0;
     margin-bottom: 0;
   }
+
   .small-caps-l {
     font-variant: small-caps;
   }
+
   .truncate-l {
     white-space: nowrap;
     overflow: hidden;

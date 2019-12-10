@@ -76,7 +76,7 @@ body {
     margin-left: -6rem;
   }
   & a {
-    box-shadow: -8px 8px 24px -6px rgba(0,0,0,0.15);
+    box-shadow: -6px 8px 18px -6px rgba(0,0,0,0.15), -6px 8px 24px -6px rgba(0,0,0,0.15);
     transition: transform .125s ease-in;
   }
   &:hover ~ .cool-cards,
@@ -89,7 +89,7 @@ body {
   &:hover a,
   &:focus-within a {
     transform: translateY(-0.5rem);
-    box-shadow: 0 0 2px 2px var(--primary), -10px 10px 30px -8px rgba(0,0,0,0.13);
+    box-shadow: 0 0 2px 2px var(--primary), -10px 10px 30px -8px rgba(0,0,0,0.11);
   }
 }
 }
