@@ -53,16 +53,19 @@ sub {
 }
 
 .text-jumbotron {
-  color: var(--primary);
   -webkit-font-smoothing: antialiased;
-  text-shadow:
-  3px 3px 0 var(--off-white),
-  -2px -2px 0 var(--off-white),
-  2px -2px 0 var(--off-white),
-  -2px 2px 0 var(--off-white),
-  2px 2px 0 var(--off-white),
-  2px 2px 6px rgba(0,0,0,0.15),
-  2px 2px 8px rgba(0,0,0,0.15);
+    text-shadow:
+      3px 3px var(--off-white),
+      -1px -1px var(--off-white),
+       /* 0   -1px var(--off-white), */
+       1px -1px var(--off-white),
+       /* 1px    0 var(--off-white), */
+       1px  1px var(--off-white),
+       /* 0    1px var(--off-white), */
+      -1px  1px var(--off-white),
+      /* -1px    0 var(--off-white), */
+      2px 2px 6px rgba(0,0,0,0.15),
+      2px 2px 8px rgba(0,0,0,0.15);
 }
 
 /* Measure is limited to ~66 characters */
