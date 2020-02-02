@@ -5,6 +5,6 @@ description: Started basic computer course for Mount Hira School students.
 image: /img/facebook-computer-course.webp
 ---
 
-## Course Description
+Course will provide a comprehensive tutorial of these programs in MS Office 2007 - Word, Excel, PowerPoint
 
-MS Office 2007 will provide a comprehensive tutorial of these programs- Word, Excel, PowerPoint
+![computers](/img/facebook-computer-course.webp)
