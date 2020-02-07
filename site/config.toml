@@ -4,6 +4,7 @@ googleAnalytics = "UA-114282893-1"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 enableRobotsTXT = true
 title = "Faiz-e-Aam Welfare Trust"
+enableEmoji = true
 
 [params]
     headline = "Together we can make a difference"

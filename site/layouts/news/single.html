@@ -2,10 +2,7 @@
 
 <div class="mw7 center ph3 pv4">
   <h1 class="f2 lh-title mb3">{{.Title}}</h1>
-  <div class="flex justify-between grey-3">
-    <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
-    <p>Read in {{ .ReadingTime }} minutes</p>
-  </div>
+    <p class="grey-3">{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
   <div class="cms">
     <p>{{ .Description }}</p>
     {{ .Content }}

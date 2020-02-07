@@ -3,7 +3,7 @@
   publish = "dist"
 
 [build.environment]
-  HUGO_VERSION = "0.63.1"
+  HUGO_VERSION = "0.64.0"
 
 [[headers]]
   for = "/*"
@@ -24,19 +24,24 @@
 [[headers]]
   for = "/"
   [headers.values]
-    Link = "</img/facebook-header.webp>; rel=preload; as=image"
+    Link = "</img/facebook-header.webp>; rel=preload; as=image, <https://fonts.gstatic.com>; rel=preconnect, <https://www.facebook.com>; rel=preconnect, </css/main.css>; rel=preload; as=style, </app.js>; rel=preload; as=script"
 
 [[headers]]
   for = "/projects/"
   [headers.values]
-    Link = "</img/facebook-collage.webp>; rel=preload; as=image"
+    Link = "</img/facebook-collage.webp>; rel=preload; as=image, <https://fonts.gstatic.com>; rel=preconnect, <https://www.facebook.com>; rel=preconnect, </css/main.css>; rel=preload; as=style, </app.js>; rel=preload; as=script"
+
+[[headers]]
+  for = "/news/"
+  [headers.values]
+    Link = "</img/facebook-cards.webp>; rel=preload; as=image, <https://fonts.gstatic.com>; rel=preconnect, <https://www.facebook.com>; rel=preconnect, </css/main.css>; rel=preload; as=style, </app.js>; rel=preload; as=script"
 
 [[headers]]
   for = "/values/"
   [headers.values]
-    Link = "</img/facebook-classroom.webp>; rel=preload; as=image"
+    Link = "</img/facebook-classroom.webp>; rel=preload; as=image, <https://fonts.gstatic.com>; rel=preconnect, <https://www.facebook.com>; rel=preconnect, </css/main.css>; rel=preload; as=style, </app.js>; rel=preload; as=script"
 
 [[headers]]
   for = "/donate/"
   [headers.values]
-    Link = "</img/facebook-cute-girl.webp>; rel=preload; as=image"
+    Link = "</img/facebook-cute-girl.webp>; rel=preload; as=image, <https://fonts.gstatic.com>; rel=preconnect, <https://www.facebook.com>; rel=preconnect, </css/main.css>; rel=preload; as=style, </app.js>; rel=preload; as=script"
