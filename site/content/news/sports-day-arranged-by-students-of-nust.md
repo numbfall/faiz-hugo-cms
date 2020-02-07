@@ -2,7 +2,6 @@
 title: Sports Day arranged by the students of NUST
 date: 2019-11-27T15:54:31-07:00
 description: "Sports Day arranged at Mount Hira School by the students of NUST university."
-image: /img/whatsapp-nust6.webp
 ---
 
 The students came on behalf of [TABA Youth Force](http://tabayouth.com/) and lunch was arranged by [Allah Walay Trust](http://www.allahwalaytrust.org.pk/).

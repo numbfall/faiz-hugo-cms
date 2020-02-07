@@ -2,7 +2,6 @@
 title: Mount Hira School students arranged an activity on cleanliness
 date: 2018-12-10T10:00:10.000Z
 description: Students participated in cleaning of streets and surrounding of the school. This activity will In Sha Allah continue every month to spread awareness on cleanliness in the community.
-image: /img/whatsapp-clean1.webp
 ---
 
 ![clean1](/img/whatsapp-clean1.webp)
