@@ -1,2 +1,4 @@
 # Redirect default Netlify subdomain to primary domain
+https://faizeaam.netlify.app/* https://faizeaam.org/:splat 301!
 https://faizeaam.netlify.com/* https://faizeaam.org/:splat 301!
+/covid /news/dastarkhuwaan-food-drive-during-covid-19-pandemic-and-ramdan-kareem

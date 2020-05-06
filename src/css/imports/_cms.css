@@ -97,10 +97,14 @@
     padding: var(--spacing-medium);
     color: var(--primary);
     font-weight: 700;
-    font-size: 1.25rem;;
+    font-size: 1.25rem;
     margin-bottom: var(--spacing-medium);
     & p {
       margin: 0;
     }
+  }
+
+  & .aspect-ratio {
+	  margin-bottom: 1rem;
   }
 }
