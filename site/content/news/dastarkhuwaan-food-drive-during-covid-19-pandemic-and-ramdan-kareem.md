@@ -31,7 +31,7 @@ Keeping the virus safety measures in mind, ration packs are laid on roads so tha
 
 ## Free roti project
 
-A creative way was practiced to help the underprivileged families and daily wagers during Corona pandemic! We selected some tandoors near slum areas and construction sites where we deposited sadqa and asked the tandoor owners to provide free roti and salan to any mason or needy person who comes to them. This project was monitored daily by our volunteers.
+A creative way is practiced to help the underprivileged families and daily wagers during Corona pandemic! We selected some tandoors near slum areas and construction sites where we deposited sadqa and asked the tandoor owners to provide free roti and salan to any mason or needy person who comes to them. This project is monitored daily by our volunteers.
 
 {{< facebook-post-nobutton "https://www.facebook.com/ayesha.iqbal.50115/videos/925676944553831/" "video" >}}
 
@@ -44,7 +44,7 @@ Transgenders are an integral and most downtrodden part of our community. Reachin
 
 ## Free Biryani lunch boxes
 
-Alhamdolillah hundreds of biryani meals are cooked with love everyday by Faiz-e-Aam Trust and distributed among underprivileged citizens and families of daily wagers who are not able to earn anymore due to the lock down. We make special arrangements to serve these meals to in slum communities on daily basis alhamdolillah.
+Alhamdolillah hundreds of biryani meals are cooked with love everyday by Faiz-e-Aam Trust and distributed among underprivileged citizens and families of daily wagers who are not able to earn anymore due to the lock down. We make special arrangements to serve these meals in slum communities on daily basis alhamdolillah.
 
 ![covid-17](/img/covid/covid-17.webp)
 ![covid-18](/img/covid/covid-18.webp)
