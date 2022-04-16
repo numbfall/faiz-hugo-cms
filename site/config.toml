@@ -1,6 +1,6 @@
-baseURL = "https://faizeaam.org"
+baseURL = "https://faizeaam.netlify.app"
 languageCode = "en-us"
-googleAnalytics = "UA-114282893-1"
+googleAnalytics = ""
 disableKinds = ["taxonomy", "taxonomyTerm"]
 enableRobotsTXT = true
 title = "Faiz-e-Aam Welfare Trust"
@@ -8,8 +8,8 @@ enableEmoji = true
 
 [params]
     headline = "Together we can make a difference"
-    logo = "https://faizeaam.org/img/apple-touch-icon.png"
-    image = "https://faizeaam.org/img/og-image.jpg"
+    logo = "/img/apple-touch-icon.png"
+    image = "/img/og-image.jpg"
     author = "Ayesha Iqbal"
     facebook = "https://www.facebook.com/Mount-HIRA-Street-Children-School-372062566191109/"
 

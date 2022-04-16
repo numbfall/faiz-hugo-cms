@@ -4,9 +4,9 @@
       "@type": "Organization",
       "name": "Faiz-e-Aam Welfare Trust",
       "description": "Welfare organization providing free education, food, healthcare and basic necessities to the deprived sectors of society",
-      "url": "{{ .Site.BaseURL }}",
-      "sameAs": "https://www.facebook.com/Mount-HIRA-Street-Children-School-372062566191109/",
-      "logo": "https://faizeaam.org/img/android-chrome-192x192.png",
+      "url": {{ .Site.BaseURL }},
+      "sameAs": {{ site.Params.Facebook }},
+      "logo": {{ .Site.Params.Logo | absURL }},
       "location": {
       	"@type": "PostalAddress",
       	"addressLocality": "Islamabad, Pakistan"

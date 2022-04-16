@@ -6,7 +6,7 @@
       "@id": "{{ .Site.BaseURL }}"
     },
     "headline": "{{ .Title }}",
-    "image": [ "{{ if isset .Params "image" }}{{ .Params.image | absURL }}{{ else }}{{ .Site.Params.image }}{{ end }}" ],
+    "image": [ "{{ if isset .Params "image" }}{{ .Params.image | absURL }}{{ else }}{{ .Site.Params.image | absURL }}{{ end }}" ],
     "datePublished": "{{.PublishDate }}",
     "dateModified": "{{.Lastmod}}",
     "author": {
@@ -18,7 +18,7 @@
       "name": "{{ .Site.Title }}",
       "logo": {
         "@type": "ImageObject",
-        "url": "{{ .Site.Params.Logo }}"
+        "url": "{{ .Site.Params.Logo | absURL }}"
       }
     },
     "description": "{{ .Params.description }}"

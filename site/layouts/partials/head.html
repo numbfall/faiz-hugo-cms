@@ -1,10 +1,9 @@
 <head>
-	{{ template "_internal/google_analytics_async.html" . }}
+	{{/*  {{ template "_internal/google_analytics_async.html" . }}  */}}
 	<meta name="description" content="{{ if isset .Params `description` }}{{ .Params.description }}{{ else }}{{ .Site.Params.headline }}{{ end }}">
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="msvalidate.01" content="206C98B9A26CA0DB95D84D98B45CB2AD" />
 	{{ hugo.Generator }}
 	<!-- Open Graph -->
 	{{ if .IsNode }}
@@ -14,7 +13,7 @@
 	<meta property="og:title" content="{{ .Site.Title }}">
 	<meta property="og:description" content="{{ .Site.Params.headline }}" >
 	<meta property="og:url" content="{{ .Site.BaseURL }}">
-	<meta property="og:image" content="{{ .Site.Params.image }}">
+	<meta property="og:image" content="{{ .Site.Params.image | absURL }}">
 	{{ else }}
 	<meta property="og:locale" content="en_US">
 	<meta property="og:site_name" content="{{ .Site.Title }}">
@@ -26,7 +25,7 @@
 	<meta property="article:published_time" content="{{ .PublishDate }}" >
 	<meta property="article:modified_time" content="{{ .Lastmod }}" >
 	<meta property="article:author" content="{{ .Site.Params.author }}" >
-	<meta property="og:image" content="{{ if isset .Params `image` }}{{ .Params.image | absURL }}{{ else }}{{ .Site.Params.image }}{{ end }}">
+	<meta property="og:image" content="{{ if isset .Params `image` }}{{ .Params.image | absURL }}{{ else }}{{ .Site.Params.image | absURL }}{{ end }}">
 	{{ end }}
 	<meta name="theme-color" content="#c71138">
 
