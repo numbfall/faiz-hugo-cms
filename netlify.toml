@@ -3,7 +3,9 @@
   publish = "dist"
 
 [build.environment]
-  HUGO_VERSION = "0.70.0"
+  HUGO_VERSION = "0.97.0"
+  NODE_VERSION = "16.14.2"
+  YARN_VERSION = "1.22.18"
 
 [[headers]]
   for = "/*"
